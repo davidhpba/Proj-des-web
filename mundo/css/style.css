@@ -1,0 +1,106 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 0.8vw + 0.8rem, 2rem);
+  font-family: sans-serif;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {
+  header div {
+    display: flex;
+    padding: 20px 10px 20px 30px;
+    justify-content: space-between;
+  }
+
+  header div ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  /* ====== main ======*/
+
+  main section.fundo {
+    background-color: rgb(199, 197, 197);
+    padding: 35px 0 50px 0;
+  }
+
+  main section.fundo  {
+    display: flex;
+  }
+
+  section h1 {
+    font-size: 40px;
+    padding: 15px;
+
+  }
+  section h1 span {
+    color: #ef3f6e;
+    padding: 0 0 20px 0;
+  }
+
+  section .cinza {
+    color: gray;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  section a {
+    background-color: #ef3f6e;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  /* ==== varias imagens =======*/
+
+  section h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+  }
+
+
+  /* ==== quase no fim =====*/ 
+
+  section.fim {
+    text-align: center;
+    padding: 30px;
+  }
+
+  section.fim p {
+    font-size: 20px;
+    color: #f788ef;
+  }
+
+  section.fim h2 span {
+    color: #ec4ae2;
+    text-decoration: underline;
+  }
+
+/* ===== footer ==== */ 
+
+footer  {
+    text-align: center;
+}
+
+footer p.u {
+    font-size: 14px;
+}
+
+
+}
