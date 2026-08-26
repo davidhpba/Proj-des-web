@@ -1,0 +1,144 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap");
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Menu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html {
+  font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+  font-family: "Epilogue", sans-serif;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  text-align: center;
+}
+
+/*==== header ===*/
+
+header {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+}
+
+header ul li.buton a {
+  background-color: #ffc222;
+  border-radius: 4px;
+  padding: 0 15px 3px 15px;
+
+}
+
+/*===main===*/
+
+main section.fundo {
+  background-color: #fcdfdf;
+  margin: 20px 0;
+  padding: 7px 0 0 0;
+}
+
+main section h1.enjoy {
+  font-weight: 800;
+  font-size: 32px;
+  padding: 10px;
+}
+
+main section p.pequeno {
+  font-size: 14px;
+  padding: 15px;
+}
+
+main section p.now a {
+  background-color: #F3274C;
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 19px;
+}
+
+/*======Popular food=======*/
+
+main section p.crispe {
+  color: #00A149;
+  font-size: 14px;
+}
+
+main section h2.items {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 0 19px;
+}
+
+section.atras {
+    background-color: #000d1f3b;
+    padding: 0 0 35px;
+}
+
+section.atras ul {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap ;    
+}
+
+section.atras {
+  padding:20px;
+}
+
+section.atras ul li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+    
+}
+
+section ul li p span.negrito {
+  font-weight: 700;
+  font-size: 21px;
+  border-top: 1px solid green;
+}
+
+section ul li p.amarelo {
+  color: #FFD40D;
+  font-size: 15px;
+  padding: 4px;
+}
+
+/*====== Follow Bravis Themes=======*/
+
+main section h1.negrito {
+  font-weight: 800;
+} 
+
+main section p.pequeno {
+  font-size: 14px;
+  padding: 0 0 15px;
+}
+
+
+/*=======Footer========*/
+
+header footer.a {
+  font-size: 20px;
+}
+
+header footer p span.ultimo {
+  font-size: 10px;
+}
+
+/* MEDIA QUERY - DESKTOP */
+@media screen and (min-width: 600px) {}
